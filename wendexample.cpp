@@ -36,7 +36,6 @@ using namespace std;
 
 int main()
 {
-    system("pwd");
 	double r = 0.3, c = 0.5;
 	WendRBF wend(3,1,c,true);
 	cout << wend(r) << " " << wend.aux1(r) << " " << wend.aux2(r) << endl;
